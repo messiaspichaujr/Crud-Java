@@ -1,18 +1,26 @@
-# 📘 Sistema CRUD, Validações e Banco de Dados
+# 📘 Projeto Java - Sistema de Cadastro com CRUD, Validações e Banco de Dados
 
-Este projeto foi desenvolvido como parte de um trabalho acadêmico da faculdade. O objetivo principal era criar um sistema funcional utilizando Java, com operações CRUD, validações, regras de negócio e integração com banco de dados.
+Este projeto foi desenvolvido como parte de um trabalho acadêmico da faculdade. Ele consiste em um sistema simples de cadastro de produtos, utilizando a linguagem Java com aplicação de CRUD, validações e integração com banco de dados MySQL.
 
-## 🎯 Objetivo
+## 🎯 Funcionalidades
 
-Desenvolver um sistema completo com foco em:
+- Cadastro de produtos
+- Listagem dos produtos registrados
+- Atualização de dados dos produtos
+- Remoção de produtos do banco
+- Validações de entrada de dados
+- Conexão com banco de dados utilizando JDBC
 
-- Operações de **Cadastro, Leitura, Atualização e Remoção (CRUD)**.
-- **Validações de dados** para garantir a integridade das informações.
-- Aplicação de **regras de negócio** definidas pelo escopo do trabalho.
-- **Persistência de dados** com conexão a um banco de dados relacional.
-
-## 🛠️ Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - Java  
-- IDE: IntelliJ  
-- Banco de Dados: Xampp - MySQL
+- JDBC  
+- MySQL Xampp
+- IDE: Eclipse
+
+## 🗂️ Estrutura do Projeto
+
+- `model/Produto.java`: Classe que representa o modelo de dados.
+- `dao/ProdutoDAO.java`: Classe responsável pelas operações no banco de dados.
+- `factory/ConnectionFactory.java`: Classe responsável por criar conexões com o MySQL.
+- `aplicacao/Main.java`: Classe principal com a lógica de interação do usuário e chamadas ao DAO.
