@@ -1,4 +1,4 @@
-# 📘 Projeto Java - Sistema de Cadastro com CRUD, Validações e Banco de Dados
+# 📘 Projeto Java - Sistema de Cadastro com CRUD
 
 Este projeto foi desenvolvido como parte de um trabalho acadêmico da faculdade. Ele consiste em um sistema simples de cadastro de produtos, utilizando a linguagem Java com aplicação de CRUD, validações e integração com banco de dados MySQL.
 
